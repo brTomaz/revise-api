@@ -7,14 +7,13 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "postinstall": "cd plugins/wysiwyg && yarn install"
   },
   "devDependencies": {},
   "dependencies": {
-    "@ckeditor/ckeditor5-build-classic": "^23.1.0",
-    "@ckeditor/ckeditor5-react": "^3.0.0",
     "knex": "<0.20.0",
-    "pg": "latest",
+    "pg": "^8.5.1",
     "strapi": "3.3.4",
     "strapi-admin": "3.3.4",
     "strapi-connector-bookshelf": "3.3.4",
