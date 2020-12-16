@@ -1,3 +1,3 @@
-# Strapi application
+# Revise API
 
-A quick description of your strapi application
+An administrator to register questions in the Revise App. This administrator provides an API to the client.
