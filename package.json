@@ -1,0 +1,40 @@
+{
+  "name": "revise-api",
+  "private": true,
+  "version": "0.1.0",
+  "description": "An administrator to register questions to the Revise App.",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^23.1.0",
+    "@ckeditor/ckeditor5-react": "^3.0.0",
+    "knex": "<0.20.0",
+    "pg": "latest",
+    "strapi": "3.3.4",
+    "strapi-admin": "3.3.4",
+    "strapi-connector-bookshelf": "3.3.4",
+    "strapi-plugin-content-manager": "3.3.4",
+    "strapi-plugin-content-type-builder": "3.3.4",
+    "strapi-plugin-email": "3.3.4",
+    "strapi-plugin-upload": "3.3.4",
+    "strapi-plugin-users-permissions": "3.3.4",
+    "strapi-utils": "3.3.4",
+    "styled-components": "^5.2.1"
+  },
+  "author": {
+    "name": "brTomaz"
+  },
+  "strapi": {
+    "uuid": "5eb7405d-ca7b-4053-a956-339cb9e5cb02"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

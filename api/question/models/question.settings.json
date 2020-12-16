@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "questions",
+  "info": {
+    "name": "question",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true,
+    "privateAttributes": [
+      "created_at",
+      "updated_at",
+      "published_at"
+    ]
+  },
+  "attributes": {
+    "info": {
+      "type": "richtext",
+      "required": true
+    },
+    "statement": {
+      "type": "string",
+      "required": true
+    },
+    "answers": {
+      "type": "json"
+    },
+    "correctAnswer": {
+      "type": "integer",
+      "required": true,
+      "min": 1,
+      "max": 5
+    }
+  }
+}
